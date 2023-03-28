@@ -16,6 +16,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
+    <link rel="stylesheet" href="./css/mobilemenu.css" />
   </head>
   <body>
     <!-- Шапка сайта -->
@@ -51,22 +55,92 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="mobile-menu-open js-open-menu">
+          <svg class="mobile-menu-open_icon" width="32" height="22">
+            <use href="./images/images.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu js-menu-container">
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu_close-btn js-close-menu">
+            <svg class="mobile-menu_close-icon" width="8" height="8">
+              <use href="./images/images.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="mobile-menu-list list">
+            <li class="mobile-menu-item">
+              <a href="" class="mobile-menu-link link">Studio</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a href="" class="mobile-menu-link link">Portfolio</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a href="" class="mobile-menu-link link current">Contacts</a>
+            </li>
+          </ul>
+          <div class="mobile-contacts">
+            <ul class="address-mobile-list list">
+              <li class="address-mobile-item">
+                <a href="tel:+110001111111" class="address-mobile-tel link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="address-mobile-item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="address-mobile-email link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+
+            <div class="mobile-social">
+              <ul class="mobile-social-list list">
+                <li class="mobile-social-item">
+                  <a href="" class="mobile-social-link link"
+                    ><svg class="mobile-social-icon" width="24" height="24">
+                      <use href="./images/images.svg#icon-instagram"></use></svg
+                  ></a>
+                </li>
+                <li class="mobile-social-item">
+                  <a href="" class="mobile-social-link link"
+                    ><svg class="mobile-social-icon" width="24" height="24">
+                      <use href="./images/images.svg#icon-twitter"></use></svg
+                  ></a>
+                </li>
+                <li class="mobile-social-item">
+                  <a href="" class="mobile-social-link link"
+                    ><svg class="mobile-social-icon" width="24" height="24">
+                      <use href="./images/images.svg#icon-facebook"></use></svg
+                  ></a>
+                </li>
+                <li class="mobile-social-item">
+                  <a href="" class="mobile-social-link link"
+                    ><svg class="mobile-social-icon" width="24" height="24">
+                      <use href="./images/images.svg#icon-linkedin"></use></svg
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
     <!-- /Шапка сайта -->
     <main>
       <!-- Hero section -->
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" data-modal-open class="hero-btn btn">
             Order Service
           </button>
         </div>
-      </section>
+      </section> -->
       <!-- /Hero section -->
       <!--  Professional qualities-->
-      <section class="qualities">
+      <!-- <section class="qualities">
         <div class="container qualities-container">
           <h2 class="visually-hidden">Professional qualities</h2>
 
@@ -121,10 +195,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!--  /Professional qualities-->
       <!--  What are we doing-->
-      <section class="work">
+      <!-- <section class="work">
         <div class="container work-container">
           <h2 class="work-title">What are we doing</h2>
           <ul class="work-list list">
@@ -154,10 +228,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!--  /What are we doing-->
       <!--Our Team  -->
-      <section class="team">
+      <!-- <section class="team">
         <div class="container team-container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list list">
@@ -339,10 +413,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!--/Our Team  -->
       <!--Customers -->
-      <section class="customers">
+      <!-- <section class="customers">
         <div class="container customers-container">
           <h2 class="customers-title">Customers</h2>
           <ul class="customers-list list">
@@ -384,10 +458,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- /Customers -->
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container footer-container">
         <div class="footer-content">
           <a href="./index.html" class="footer-logo logo link"
@@ -455,7 +529,7 @@
       <div class="modal">
         <button type="button" data-modal-close class="modal-close">
           <svg class="modal-close-icon" width="8" height="8">
-            <use href="./images/images.svg#icon-vector"></use>
+            <use href="./images/images.svg#icon-close"></use>
           </svg>
         </button>
         <p class="modal-form-title">
@@ -535,6 +609,9 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script>
+    
+     -->
+    <script src="./js/mobile-menu.js"></script>
+    <!-- <script src="./js/modal.js"></script> -->
   </body>
 </html>
