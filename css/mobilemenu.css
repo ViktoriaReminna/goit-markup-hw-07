@@ -41,6 +41,20 @@
         color: #4D5AE5;
         transition: color 250ms var(--timing-function);
 }
+@media screen and (max-width: 368px) {
+    .address-mobile-tel {
+        font-size: 24px;
+
+    }
+}
+@media screen and (min-width: 369px) and (max-width: 427px){
+    .address-mobile-tel {
+        font-size: 30px;
+           
+        }
+    
+}
+
 .address-mobile-email {
    font-style: normal;
         font-weight: 500;
