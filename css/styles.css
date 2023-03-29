@@ -141,23 +141,37 @@ body {
     padding-bottom: 22px;
 }
 
-.header-logo {
-    color: var(--dark-color);
 
-}
 .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-}}
+}
+.qualities-item {
+    margin-bottom: 72px;
+}
 
+.qualities-item:last-child {
+    margin-bottom: 0;
+}
 
+}
+.header-logo {
+    color: var(--dark-color);
 
-.header {
+}
+@media screen and (max-width: 1199px) {
+    .qualities-icon {
+            display: none;
+        }
+         
+}
+
+/* .header {
     border-bottom: 1px solid var(--accent-color);
     box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16), 0 1px 6px rgba(46, 47, 66, 0.08);
-}/* 
+}
 .header-container {
     display: flex; 
     align-items: center;
@@ -230,31 +244,42 @@ body {
 
 .address-link:hover,.address-link:focus {
     color: var(--hov-focus-color);
-} */
+}  */
 
 /*---------------- Hero --------------*/
-/* .hero {
-    max-width: 1440px;
+ .hero {
+    max-width: 428px;
     margin-left: auto;
     margin-right: auto;
-    padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero.jpg);
+    padding: 112px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobilehero.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     }
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution:192dpi),
+    screen and (min-resolution:2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobilehero@2x.jpg);
 
-.hero-title {
-    width: 496px;
+        }
+               
+    }
+
+ .hero-title {
+    max-width: 320px;
+    width: 100%;
     margin: 0 auto;
-    margin-bottom: 48px;
-    text-align: center; 
+    margin-bottom: 72px;
+     center; 
     font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--white-color);
 }
+
 .hero-btn {
     display: block;
     min-width: 169px;
@@ -269,46 +294,43 @@ body {
 .hero-btn:hover {
     background: var(--hov-focus-color);
     
-} */
+} 
 
 /* ----------------Section Qualities--------------- */
-/* .qualities {
-    padding-top: 120px; 
-    padding-bottom: 120px;
-}
-.qualities-item {
-    min-width: 264px;
+ .qualities {
+    padding-top: 96px; 
+    padding-bottom: 96px;
 }
 
+
+.qualities-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+    margin-bottom: 8px;
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+.qualities-description {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+/*
    .qualities-list {
     display: flex;
     gap: 24px;
 }
 
-.qualities-item-icon {
-
-    background-color: rgba(244, 244, 253, 1);
-    padding: 24px 100px;
-    margin-bottom: 8px;
 
 
-}
 
-.qualities-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--dark-color);
-    margin-bottom: 8px;
-}
-.qualities-description {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--text-color);
-} */
+ */
 /*---------------------- What are we doing-------------- */
 /* .work {
     padding-bottom: 120px;

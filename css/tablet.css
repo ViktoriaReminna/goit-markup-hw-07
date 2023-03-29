@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px)  {
     .container {
         max-width: 768px;
     }
@@ -13,10 +13,12 @@
             border-bottom: 1px solid var(--accent-color);
             box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16), 0 1px 6px rgba(46, 47, 66, 0.08);
         }
-    
+       
         .header-container {
+            
             display: flex;
             align-items: center;
+           
         }
     
         .header-navigation {
@@ -35,17 +37,14 @@
     
         }
     
-        .address {
-            margin-left: auto;
-        }
-    
+      
         .address-list {
             display: flex;
             flex-wrap: wrap;
             padding: 16px 0;
-            margin-left: 121px;
-            
+            margin-left: 121px; 
     
+  
         }
     
         .header-link {
@@ -80,6 +79,7 @@
     
         .address-link {
             
+            margin-top: 12px;
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
@@ -99,4 +99,62 @@
         .address-link:focus {
             color: var(--hov-focus-color);
         }
+                .hero {
+                    max-width: 768px;
+                    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tablethero.jpg);
+                    
+                }
+        
+                @media screen and (min-device-pixel-ratio: 2),
+                screen and (min-resolution:192dpi),
+                screen and (min-resolution:2dppx) {
+                    .hero {
+                        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tablethero@2x.jpg);
+        
+                    }
+        
+                }
+        
+                .hero-title {
+                width: 496px;
+                margin: 0 auto;
+                margin-bottom: 36px;
+                text-align: center;
+                font-weight: 700;
+                font-size: 56px;
+                line-height: 1.07;
+                letter-spacing: 0.02em;
+                color: var(--white-color);
+                }
+        
+              
+        
+                .hero-btn:hover {
+                    background: var(--hov-focus-color);
+        
+                }
+                               
+                .qualities-title {
+                text-align: start;
+                                   
+                  }
+                 
+                                  
+                                  
+                                  .qualities-item {
+                                 max-width: 356px;
+                            
+                                  }
 }
+ @media screen and (max-width: 1199px) {
+     .qualities-list {
+
+         display: flex;
+         flex-wrap: wrap;
+         row-gap: 72px;
+         column-gap: 24px;
+
+
+
+     }
+ }
