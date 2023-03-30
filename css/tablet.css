@@ -116,7 +116,8 @@
                 }
         
                 .hero-title {
-                width: 496px;
+                max-width: 496px;
+                width: 100%;
                 margin: 0 auto;
                 margin-bottom: 36px;
                 text-align: center;
@@ -157,4 +158,34 @@
 
 
      }
+     .team-list {
+     
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+        
+}
+.customers-list{
+    max-width: 554px;
+    margin: 0 auto;
+}
+.customers-item {
+     width: 168px; 
+    
+}
+.footer-container {
+    max-width: 565px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-social-subtitle {
+    margin-top: 0;
+}
+.footer-form {
+    display: flex;
+
+}
+
  }
