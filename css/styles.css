@@ -182,7 +182,6 @@ body {
 /*---------------- Hero --------------*/
  .hero {
     max-width: 428px; 
-    
     margin-left: auto;
     margin-right: auto;
     padding: 112px 0;
@@ -384,7 +383,7 @@ body {
 
 
 /* -----------------footer------------- */
-.footer {
+/* .footer {
    
     background: var(--modal-overlay-color);
    
@@ -506,7 +505,7 @@ justify-content: center;
     margin-left: 16px;
     fill: #fff;
 
-}
+} */
 
  /*  
 .content2 {
