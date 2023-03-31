@@ -344,6 +344,7 @@ height: 40px;
 .footer-social {
     margin-left: 120px;
     margin-right: 80px;
+    margin-top: 0;
 }
 .footer-social-subtitle {
     font-weight: 500;
@@ -440,7 +441,8 @@ height: 40px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
-    margin-bottom: 16px;
+    margin-bottom: 0;
+    margin-top: 0;
         }
 .footer-button-icon {
     margin-left: 16px; 
