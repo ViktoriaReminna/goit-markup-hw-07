@@ -191,5 +191,31 @@
     width: 264px;
     margin-right: 24px;
  }
+ .modal {
+
+     width: 408px;
+     min-height: 586px;
+     padding: 24px;
+     
+     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14);
+     padding: 72px 24px 24px 24px;
+
+
+ }
+  .main {
+      padding-top: 96px;
+      padding-bottom: 96px;
+
+  }
+ .servises-list {
+
+     column-gap: 24px;
+
+ }
+
+ .services-item:last-child {
+margin-right: 380px;
+
+ }
 
  }}
