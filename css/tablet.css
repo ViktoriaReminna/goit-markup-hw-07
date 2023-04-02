@@ -41,6 +41,7 @@
         .address-list {
             display: flex;
             flex-wrap: wrap;
+            row-gap: 12px;
             padding: 16px 0;
             margin-left: 121px; 
     
@@ -70,7 +71,7 @@
             background-color: var(--hov-focus-color);
             position: absolute;
             left: 0;
-            bottom: 0;
+            bottom: -6px;
         }
     
         .header-link.current {
@@ -79,11 +80,11 @@
     
         .address-link {
             
-            margin-top: 12px;
+            
             font-style: normal;
             font-weight: 400;
-            font-size: 16px;
-            line-height: 1.5;
+            font-size: 12px;
+            line-height: 1.17;
             letter-spacing: 0.02em;
             color: var(--text-color);
             transition: color 250ms var(--timing-function);
@@ -98,7 +99,9 @@
         .address-link:hover,
         .address-link:focus {
             color: var(--hov-focus-color);
+            
         }
+
                 .hero {
                     max-width: 768px;
                     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tablethero.jpg);
@@ -142,11 +145,36 @@
                  
                                   
                                   
-                                  .qualities-item {
-                                 max-width: 356px;
+            .qualities-item {
+            max-width: 356px;
                             
-                                  }
+            }
+            .footer-logo {
+                                
+                 text-align: start;
+                                
+                                
+            }
+                        .footer-social-link:is(:hover, :focus) {
+                            background-color: #31D0AA;
+                        }
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+    background: var(--hov-focus-color);
+    border-color: 1px solid var(--hov-focus-color);
 
+}
+.modal-close:hover,
+.modal-close:focus {
+    background-color: var(--hov-focus-color);
+    border: 1px solid var(--hov-focus-color);
+    color: #fff;
+
+}
+.form-btn:hover {
+    background: var(--hov-focus-color);
+
+}
  @media screen and (max-width: 1199px) {
      .qualities-list {
 
@@ -180,6 +208,8 @@
     display: flex;
     flex-wrap: wrap;
 }
+ 
+ 
 .footer-social-subtitle {
     margin-top: 0;
 }
@@ -191,6 +221,8 @@
     width: 264px;
     margin-right: 24px;
  }
+ 
+ 
  .modal {
 
      width: 408px;
@@ -202,6 +234,7 @@
 
 
  }
+
   .main {
       padding-top: 96px;
       padding-bottom: 96px;
